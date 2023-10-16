@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+    /* Розмір логотипу */
+    height: 54px;
+    /* Розмір логотипу */
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.search-input {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.results {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.result-item {
+    margin-bottom: 10px;
+}
+
+.result-item a {
+    text-decoration: none;
+    color: #1a0dab;
+    font-weight: bold;
+}

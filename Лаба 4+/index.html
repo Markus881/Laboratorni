@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Опитування: Інформація про себе</title>
+  <link rel="stylesheet" href="./style/index.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Інформація про себе</h1>
+    <form>
+      <label for="name">Ім'я:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="age">Вік:</label>
+      <input type="text" id="age" name="age" required>
+
+      <label>Стать:</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Чоловік</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Жінка</label>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Інше</label>
+
+      <label for="country">Країна:</label>
+      <select id="country" name="country">
+        <option value="ukraine">Україна</option>
+        <option value="usa">США</option>
+        <option value="russia">Росія</option>
+        <option value="other">Інша</option>
+      </select>
+
+      <label for="comments">Коментар:</label>
+      <textarea id="comments" name="comments" rows="4"></textarea>
+
+      <button type="submit">Надіслати</button>
+    </form>
+  </div>
+</body>
+
+</html>
